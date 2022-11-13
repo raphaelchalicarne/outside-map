@@ -8,6 +8,7 @@ jobs:
   set-config-var:
     runs-on: ubuntu-latest
     steps:
+      - uses: actions/checkout@v3
       - name: Create config.js file
         env:
           MAPBOX_PK: ${{ secrets.MAPBOX_PK }}
