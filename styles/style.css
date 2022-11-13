@@ -3,6 +3,12 @@ body {
   padding: 0;
 }
 
+#strava-button {
+  position: absolute;
+  top: 30;
+  left: 30;
+}
+
 #map {
   position: absolute;
   top: 0;
