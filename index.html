@@ -12,10 +12,8 @@
 
 <body>
   <div id="map"></div>
-  <script src="js/map.js" type="module"></script>
-  <button
-    onclick="location.href='https://www.strava.com/oauth/authorize?client_id=97031&response_type=code&redirect_uri=http://www.raphaelchalicarne.github.io/outside-map/exchange_token&approval_prompt=force&scope=read'"
-    type="button" id="strava_button">
+  <script src="js/map.js"></script>
+  <button onclick="stravaAuth()" type="button" id="strava_button">
     <svg class="svg-icon" role="img" width="193px" height="48px" viewBox="0 0 193 48" version="1.1"
       xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true"
       focusable="false">
@@ -71,6 +69,7 @@
     <path class="cls-1" d="M84.36,23.16V17.84H82.48v-1h4.82v1H85.42v5.32H84.36Z" />
     <path class="cls-1" d="M88.87,23.16v-6.3h1.06v2.59h2.38V16.86h1.06v6.3H92.31V20.37H89.93v2.79H88.87Z" />
   </svg>
+  <script src="js/strava_auth.js"></script>
 </body>
 
 </html>
