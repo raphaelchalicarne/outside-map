@@ -1,5 +1,3 @@
-import MAPBOX_PK from '/js/config.js';
-
 mapboxgl.accessToken = 'pk.eyJ1IjoicmFwaDU5IiwiYSI6ImNsYWY3bHRxcTA4dTEzeG83ZjB2bzkwYmUifQ.Ye2p9OAgykrdKe0fLWSN7A';
 const map = new mapboxgl.Map({
   container: 'map', // container ID
