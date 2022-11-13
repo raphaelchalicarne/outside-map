@@ -1,0 +1,14 @@
+name: Variables
+
+on:
+  push:
+    branches: [main]
+
+jobs:
+  set-config-var:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Create config.js file
+        env:
+          MAPBOX_PK: ${{ secrets.MAPBOX_PK }}
+        run: cd js && echo -e "const MAPBOX_PK = '$MAPBOX_PK';\n\nexport default MAPBOX_PK;" > config.js
