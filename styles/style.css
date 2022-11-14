@@ -1,6 +1,15 @@
-body {
-  margin: 0;
-  padding: 0;
+#strava_button {
+  position: absolute;
+  top: 30;
+  left: 30;
+}
+
+#strava_outlined {
+  position: absolute;
+  bottom: 5px;
+  left: 104px;
+  width: 20%;
+  height: auto;
 }
 
 #map {
@@ -8,4 +17,13 @@ body {
   top: 0;
   bottom: 0;
   width: 100%;
+}
+
+.cls-1 {
+  fill: #fff;
+}
+
+body {
+  margin: 0;
+  padding: 0;
 }
