@@ -1,0 +1,25 @@
+{
+  "name": "outside-map",
+  "version": "1.0.0",
+  "description": "Display your Strava activities",
+  "main": "hello_world.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/raphaelchalicarne/outside-map.git"
+  },
+  "keywords": [
+    "strava"
+  ],
+  "author": "raphaelchalicarne",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/raphaelchalicarne/outside-map/issues"
+  },
+  "homepage": "https://github.com/raphaelchalicarne/outside-map#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
